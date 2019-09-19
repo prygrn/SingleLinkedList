@@ -1,9 +1,17 @@
+<<<<<<< HEAD
 #ifndef SINGLYLINKEDLIST_H_
 #define SINGLYLINKEDLIST_H_
+=======
+#ifndef SINGLYLINKEDLIST_H_
+#define SINGLYLINKEDLIST_H_
+>>>>>>> 68826b4c8f2996364a37a5ee53d91f5c0ac6911f
 
 #include <stdlib.h>
 #include <stdio.h>
 #include <stdbool.h>
+<<<<<<< HEAD
+=======
+>>>>>>> 68826b4c8f2996364a37a5ee53d91f5c0ac6911f
 
 typedef struct SinglyLinkedListNode
 {
@@ -24,13 +32,25 @@ int getNode(SinglyLinkedListNode* head, int positionFromTail);
 SinglyLinkedListNode* removeDuplicates(SinglyLinkedListNode* head);
 bool bHasListCycle(SinglyLinkedListNode* head);
 int findMergeNode(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2);
+<<<<<<< HEAD
 void printLinkedList(SinglyLinkedListNode* head);
 void reversePrint(SinglyLinkedListNode* head);
 
 /* To be created: 
 - SinglyLinkedListNode* sortLinkedList(SinglyLinkedListNode* head);
+=======
+void printLinkedList(SinglyLinkedListSinglyLinkedListNode* head);
+void reversePrint(SinglyLinkedListNode* head);
+
+/* To be created: 
+- SinglyLinkedListNode*	sortLinkedList(SinglyLinkedListNode* head);
+>>>>>>> 68826b4c8f2996364a37a5ee53d91f5c0ac6911f
 - bool destroyList(SinglyLinkedListNode* head);
 - SinglyLinkedListNode* updateNode(SinglyLinkedListNode* head, SinglyLinkedListNode* node);
 */
 
+<<<<<<< HEAD
 #endif /* SINGLYLINKEDLIST_H_ */
+=======
+#endif /* SINGLYLINKEDLIST_H_ */
+>>>>>>> 68826b4c8f2996364a37a5ee53d91f5c0ac6911f
