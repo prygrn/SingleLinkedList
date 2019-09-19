@@ -7,22 +7,14 @@
  Description : Hello World in C, Ansi-style
  ============================================================================
  */
-
-<<<<<<< HEAD
+ 
 #include "SinglyLinkedList.h"
-=======
-#include "SingleLinkedList.h"
->>>>>>> 68826b4c8f2996364a37a5ee53d91f5c0ac6911f
 
 SinglyLinkedListNode* createSinglyLinkedList(int data)
 {
 	SinglyLinkedListNode *head = malloc(sizeof(SinglyLinkedListNode));
 
-<<<<<<< HEAD
 	if(head != NULL)
-=======
-	if((head != NULL)
->>>>>>> 68826b4c8f2996364a37a5ee53d91f5c0ac6911f
 	{
 		head->data = data;
 		head->next = NULL;
@@ -30,10 +22,7 @@ SinglyLinkedListNode* createSinglyLinkedList(int data)
 	else
 	{
 		fprintf(stderr, "Not enough memory to create a new list.\n");
-<<<<<<< HEAD
-=======
 		exit(EXIT_FAILURE);
->>>>>>> 68826b4c8f2996364a37a5ee53d91f5c0ac6911f
 	}
 	return head;
 }
@@ -218,12 +207,9 @@ bool compareLinkedLists(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2
 
 SinglyLinkedListNode* mergeLinkedLists(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2)
 {
-<<<<<<< HEAD
-=======
     SinglyLinkedListNode *current1 = head1;
     SinglyLinkedListNode *current2 = head2;
 
->>>>>>> 68826b4c8f2996364a37a5ee53d91f5c0ac6911f
     if((head1 == NULL) && (head2 == NULL))
         return NULL;
     if(head1 == NULL)
@@ -336,15 +322,9 @@ int findMergeNode(SinglyLinkedListNode* head1, SinglyLinkedListNode* head2)
     return current1->data;
 }
 
-<<<<<<< HEAD
 void printLinkedList(SinglyLinkedListNode* head)
 {
     SinglyLinkedListNode *current = head;
-=======
-void printLinkedList(SinglyLinkedListSinglyLinkedListNode* head)
-{
-    SinglyLinkedListSinglyLinkedListNode *current = head;
->>>>>>> 68826b4c8f2996364a37a5ee53d91f5c0ac6911f
 
 	if(current != NULL)
 	{
